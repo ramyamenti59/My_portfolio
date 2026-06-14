@@ -1,0 +1,64 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background: linear-gradient(
+   135deg,
+    #0F172A,
+    #7C3AED);
+  overflow-x: hidden;
+}
+
+.navbar {
+  background: rgba(0,0,0,0.2);
+  backdrop-filter: blur(10px);
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.skill-card,
+.project-card {
+  padding: 25px;
+  border: none;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(15px);
+  color: white;
+  transition: 0.3s;
+}
+
+.skill-card:hover,
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.contact-form {
+  max-width: 600px;
+}
+
+.form-control {
+  border-radius: 12px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0,0,0,0.2);
+}
